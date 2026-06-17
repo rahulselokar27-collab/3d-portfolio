@@ -5,33 +5,24 @@ const Contact = () => {
   return (
     <div className="contact-section section-container" id="contact">
       <div className="contact-container">
-        <h3>Contact</h3>
+        <h3>Get In Touch</h3>
         <div className="contact-flex">
           <div className="contact-box">
-            <h4>Connect</h4>
+            <h4>Email</h4>
             <p>
-              <a
-                href="https://www.linkedin.com/in/akashrmalhotra/"
-                target="_blank"
-                rel="noreferrer"
-                data-cursor="disable"
-              >
-                LinkedIn — akashrmalhotra
+              <a href="mailto:rahulselokar27@gmail.com" data-cursor="disable">
+                rahulselokar27@gmail.com
               </a>
             </p>
-            <h4>Education</h4>
-            <p>
-              PGPWE (MBA), Indian Institute of Management, Lucknow — 2021–2023
-            </p>
-            <p>
-              B.Tech Computer Science, Manav Rachna Educational Institutions —
-              2009–2013
-            </p>
+            <h4>Location</h4>
+            <p>Nagpur, Maharashtra,</p>
+            <p>India</p>
           </div>
+
           <div className="contact-box">
-            <h4>Social</h4>
+            <h4>Find Me</h4>
             <a
-              href="https://github.com/akashrmalhotra"
+              href="https://github.com/rahulselokar27-collab"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
@@ -40,7 +31,7 @@ const Contact = () => {
               GitHub <MdArrowOutward />
             </a>
             <a
-              href="https://www.linkedin.com/in/akashrmalhotra/"
+              href="https://linkedin.com/in/rahul-selokar"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
@@ -49,30 +40,20 @@ const Contact = () => {
               LinkedIn <MdArrowOutward />
             </a>
             <a
-              href="https://www.youtube.com/@Leftbraincoder"
-              target="_blank"
-              rel="noreferrer"
+              href="mailto:rahulselokar27@gmail.com"
               data-cursor="disable"
               className="contact-social"
             >
-              YouTube <MdArrowOutward />
-            </a>
-            <a
-              href="https://www.instagram.com/leftbraincoder/"
-              target="_blank"
-              rel="noreferrer"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Instagram <MdArrowOutward />
+              Email <MdArrowOutward />
             </a>
           </div>
+
           <div className="contact-box">
             <h2>
-              Designed and Developed <br /> by <span>Akash Malhotra</span>
+              Rahul <br /> <span>Selokar</span>
             </h2>
             <h5>
-              <MdCopyright /> 2026
+              <MdCopyright /> 2026 · Cloud & DevOps Engineer
             </h5>
           </div>
         </div>

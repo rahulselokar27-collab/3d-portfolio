@@ -39,20 +39,19 @@ const Navbar = () => {
       ScrollSmoother.refresh(true);
     });
   }, []);
+
   return (
     <>
       <div className="header">
         <a href="/#" className="navbar-title" data-cursor="disable">
-          AM
+          RS
         </a>
         <a
-          href="https://www.linkedin.com/in/akashrmalhotra/"
+          href="mailto:rahulselokar27@gmail.com"
           className="navbar-connect"
           data-cursor="disable"
-          target="_blank"
-          rel="noreferrer"
         >
-          linkedin.com/in/akashrmalhotra
+          Nagpur, India — Open to Cloud/DevOps Roles
         </a>
         <ul>
           <li>
@@ -62,7 +61,7 @@ const Navbar = () => {
           </li>
           <li>
             <a data-href="#work" href="#work">
-              <HoverLinks text="WORK" />
+              <HoverLinks text="PROJECTS" />
             </a>
           </li>
           <li>

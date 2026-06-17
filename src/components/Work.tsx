@@ -5,32 +5,32 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "CallHQ",
-    category: "Voice AI Calling Platform",
-    tools: "Voice AI, Calling Automation, CRM Integrations",
-    image: "/images/callhq.png",
-    link: "https://callhq.ai",
+    title: "CI/CD Pipeline",
+    category: "Automated Build & Deploy Pipeline",
+    tools: "Jenkins, Docker, GitHub, Shell Scripting",
+    image: "/images/jenkins.png",
+    link: "https://github.com/rahulselokar27-collab",
   },
   {
-    title: "Whatsapp Automation",
-    category: "WABA Application",
-    tools: "WhatsApp Business API, Workflow Automation, Notifications",
-    image: "/images/whatsapp.png",
-    link: "https://whatsapp.callhq.ai",
+    title: "Cloud Infra on AWS",
+    category: "Infrastructure as Code",
+    tools: "AWS, Terraform, EC2, S3, VPC",
+    image: "/images/aws.png",
+    link: "https://github.com/rahulselokar27-collab",
   },
   {
-    title: "Broki",
-    category: "Real Estate Platform for FnB Industry",
-    tools: "Property Discovery, Lead Management, Marketplace Workflows",
-    image: "/images/broki.png",
-    link: "https://broki.in",
+    title: "Kubernetes Deployment",
+    category: "Container Orchestration",
+    tools: "Kubernetes, Docker, Helm, Linux",
+    image: "/images/kubernetes.png",
+    link: "https://github.com/rahulselokar27-collab",
   },
   {
-    title: "Orrdr.com",
-    category: "Ecommerce Platform and Mobile App",
-    tools: "Ecommerce, Mobile Experience, Order Management",
-    image: "/images/orrdr.png",
-    link: "https://orrdr.com",
+    title: "Monitoring Dashboard",
+    category: "Observability & Alerting",
+    tools: "Grafana, Linux, Prometheus-ready Setup",
+    image: "/images/grafana.png",
+    link: "https://github.com/rahulselokar27-collab",
   },
 ];
 
@@ -64,7 +64,7 @@ const Work = () => {
     <div className="work-section" id="work">
       <div className="work-container section-container">
         <h2>
-          My <span>Work</span>
+          My <span>Projects</span>
         </h2>
 
         <div className="carousel-wrapper">
